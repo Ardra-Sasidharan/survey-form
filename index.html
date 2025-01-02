@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   <title>Survey Form</title>
+   <link href="styles.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">SURVEY FORM</h1>
+      <p id="description">Thank you for taking the time to do this survey</p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Enter Your Name<input placeholder="Enter here" required id="name" type="text"></input></label>
+        <label id="email-label" for="email">Enter Your Email<input placeholder="Enter here" required id="email" type="email"></input></label>
+        <label  id="number-label" for="number">Enter Your Age<input placeholder="age" required id="number" type="number" min="8" max="89"></input></label>
+        <label> Married Status<select id="dropdown">
+          <option>Select</option>
+          <option>Single</option>
+          <option>Married</option>
+          
+        </select></label>
+        <label for="male"
+          >Male <input class="inline"
+            id="male"
+            type="radio"
+            name="gender"
+            value="gender"
+            checked
+          />
+          </label
+        >
+        <label for="female"
+          >Female <input class="inline"
+            id="female"
+            type="radio"
+            name="gender"
+            value="gander"
+            
+          />
+          </label
+        >
+         <label for="completed">Completed Course
+        <input class="inline"
+          
+          id="completed"
+          type="checkbox"
+          required
+          name="completed"
+          value="course"
+        />
+        
+        
+      </label>
+       <label for="certificate"> Recieved Certificate
+        <input class="inline"
+          
+          id="certificate"
+          type="checkbox"
+          required
+          name="certificate"
+          value="certificate"
+        />
+        
+      </label>
+      <label>Enter bio <textarea></textarea></label
+     <label> <input type="submit" id="submit"></input>
+      </form></label>
+      <div>
+
+  </body>
+</html>

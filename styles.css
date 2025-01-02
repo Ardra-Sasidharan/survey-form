@@ -1,0 +1,51 @@
+body {
+  background: url(https://cdn.wallpapersafari.com/18/25/a4rTsK.jpg);
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 90%);
+  width: 500px;
+  height: 550px;
+  margin: 70px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 70%);
+}
+#title {
+  text-align: center;
+  color: rgba(244, 164, 96, 0.9);
+}
+#description {
+  text-align: center;
+  color: #0045;
+}
+#survey-form {
+  background-color: grey;
+  padding: 10px 10px;
+  width: 450px;
+  margin: auto;
+  height: 40;
+}
+label {
+  display: block;
+  color: white;
+  padding-left: 10px;
+}
+input,
+textarea {
+  display: block;
+  margin: 10px 0;
+}
+#dropdown {
+  margin-left: 10px;
+}
+.inline {
+  display: inline-block;
+  margin-left: 10px;
+}
+#submit {
+  background-color: black;
+  color: white;
+  margin: auto;
+}
